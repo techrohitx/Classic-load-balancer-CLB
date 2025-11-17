@@ -24,25 +24,25 @@ echo "<h1>This is classic Load Balencer $(hostname -f)</h1>" > /var/www/html/ind
 ![Reference Image](/img/classicload.png)
 
 **Step-3: Add The Available Instances.**
-![Reference Image](addinstance.png)
+![Reference Image](/img/addinstance.png)
 
 **Step-4: Add The Listeners and Routing.**
-![Reference Image](addlisteners%20rule.png)
+![Reference Image](/img/addlisteners%20rule.png)
 
 **Step-5:Create Classic Loadbalancer Such as Classic-LB**
-![Reference Image](loadbalencer.png)
+![Reference Image](/img/loadbalencer.png)
 
 **Step-6: Copy the DNS name of the CLB.** 
-![Reference Image](dns.png)
+![Reference Image](/img/dns.png)
   ## :globe_with_meridians:  **Expected Output Paste CLB DNS name in the new window.**
 - **Server-1**
-![Reference Image](output-1.png)
+![Reference Image](/img/output-1.png)
 
 - **Server-2**
-![Reference Image](output-2.png)
+![Reference Image](/img/output-2.png)
 
 - **Server-3**
-![Reference Image](out-3.png)
+![Reference Image](/img/out-3.png)
 
 ## :red_circle: **Summary** 
 
