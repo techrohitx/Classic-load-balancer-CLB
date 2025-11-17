@@ -8,7 +8,7 @@ name of the classic load balancer is copied and tested to verify traffic disribu
 
 ## :o: **Steps for Implement**
 **Step-1: Launch The Three Instance Server-1,Server-2,Server-3**
-![Reference Image](create3instance.png)
+![Reference Image](/img/create3instance.png)
 
 Add the following script in User Data while launching 3 Server instance:-
 
@@ -21,7 +21,7 @@ systemctl enable httpd
 echo "<h1>This is classic Load Balencer $(hostname -f)</h1>" > /var/www/html/index.html
 ```
 **Step-2: Create the classic load balancer & create button**
-![Reference Image](classicload.png)
+![Reference Image](/img/classicload.png)
 
 **Step-3: Add The Available Instances.**
 ![Reference Image](addinstance.png)
